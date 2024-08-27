@@ -23,7 +23,6 @@ function descriptografar() {
     document.getElementById("outputText").value = outputText;
 }
 
-//Remove automaticamentes elementos indesejados do inputText especificados na funcao retirarAcentuacao()
 const botaoCopiador = document.getElementById("botaoCopiador");
 botaoCopiador.addEventListener('click', () => {
     navigator.clipboard.writeText(document.getElementById("outputText").value)
@@ -32,6 +31,7 @@ botaoCopiador.addEventListener('click', () => {
         });
 });
 
+//Remove automaticamentes elementos indesejados do inputText especificados na funcao retirarAcentuacao()
 document.getElementById("inputText").addEventListener("input", function () {
     this.value = retirarAcentuacao(this.value)
 });
