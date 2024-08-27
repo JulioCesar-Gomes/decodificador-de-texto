@@ -9,7 +9,7 @@ function criptografar() {
 
     //Replace - substitui elementos/partes de uma string por outra. 
     let outputText = inputText.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober")
-        .replace(/u/g, "ufat").replace(/[^a-z]/g, "");
+        .replace(/u/g, "ufat").replace(/[^a-z\s]/g, "");
     document.getElementById("outputText").value = outputText;
 }
 
@@ -17,7 +17,7 @@ function descriptografar() {
     let inputText = document.getElementById("inputText").value;
     inputText = retirarAcentuacao(inputText);
     let outputText = inputText.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o")
-        .replace(/ufat/g, "u").replace(/[^a-z]/g, "");// A letra g indica que todas as ocorrencias serão substituidas, (globalmente).
+        .replace(/ufat/g, "u").replace(/[^a-z\s]/g, "");// A letra g indica que todas as ocorrencias serão substituidas, (globalmente).
 
     //Seleciona Campo do HTML e retorna com novo valor atribuido (criptografado).
     document.getElementById("outputText").value = outputText;
