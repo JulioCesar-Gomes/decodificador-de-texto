@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+:root {
+    --cor-background-1:black;
+    --cor-background-cript: white;
+    --cor-background-cript2:rgb(5, 169, 5);
+    --cor-background-descript2: #d10f0f;
+    --cor-border-box:rgb(195, 244, 71);
+    --cor-text-saidabox:var(--cor-background-cript2);
+    
+    --font-primaria: "Share Tech", sans-serif;
+}
+
+* {
+    background: var(--cor-background-1);
+    font-family: var(--cor-background-cript);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.logoRobo {
+    display: flex;
+    margin-left: 8px;
+    padding-top: 8px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-primaria);
+    align-items: center;
+    padding-top: 10px;
+    color: white;
+}
+
+
+.entradaDeTexto {
+    background: var(--cor-background-cript);
+    border-radius: 3%;
+    color: var(--cor-secundaria);
+    margin-top: 90px;
+    font-family: var(--font-primaria);
+    text-transform: lowercase;
+
+}
+
+.saidaDeTexto {
+    background: var(--cor-background-cript);
+    background-image: url(/style/robô-pensativo.jpg);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius:24px;
+    color:var(--cor-text-saidabox);
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-left: 10px;
+    font-family: var(--font-primaria);
+    text-transform: lowercase;
+}
+
+.botaoCopia {
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    margin-top:1%;
+
+}
+.botaoCopy {
+    background: var(--cor-background-cript);
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-direction: line;
+    border-radius: 20%
+
+}
+
+.observacao {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-primaria);
+    align-items: center;
+    padding-top: 10px;
+}
+
+.botao {
+    display: flex;
+    border-radius: 10%;
+    gap: 2%;
+    margin-top:1%;
+}
+
+.botaoCript {
+    background: var(--cor-background-cript);
+    font-family: var(--font-primaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-direction: line;
+    border-radius: 20%
+}
+
+.botaoDescript {
+    background: var(--cor-background-cript);
+    font-family: var(--font-primaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-direction: line;
+    border-radius: 20%;
+
+}
+
+.rodape {
+    padding-top:1px;
+    font-family: var(--font-primaria);
+    color: white;
+    gap:2%;
+}
+
+.botaoCript:hover{
+    background:var(--cor-background-cript2);
+    color: white;
+}
+.botaoDescript:hover{
+    background:var(--cor-background-descript2);
+    color:white;
+}
+.botaoCopy:hover {
+    background: black;
+    color: white;
+}
