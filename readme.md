@@ -12,14 +12,14 @@ Funcionalidades:
 - Copiar: efetua a cópia do texto, tanto criptografado quanto descriptografado.
 
 Tecnologias:
-1- JavaScript: Lógica de Programação.
-2- HTML: Estrutura e marcação.
-3- Estilização da Interface.  
+- JavaScript: Lógica de Programação.
+- HTML: Estrutura e marcação.
+- Estilização da Interface.  
 
 Como os usuários podem utilizá-lo:
-1- O usuário deverá inserir o texto no campo indicado (na caixa à esquerda).
-2- Clicando no botão "Criptografar" o texto inserido será criptografado e aparecerá no campo indicado (na caixa à direita).
-2- Clicando no botão "Descriptografar" o texto inserido será descriptografado e aparecerá no campo indicado (na caixa à direita).
-3- Clicando no botão "Copiar" o texto na caixa à direita seja criptado ou descriptado será copiado para área de transferência.
+- O usuário deverá inserir o texto no campo indicado (na caixa à esquerda).
+- Clicando no botão "Criptografar" o texto inserido será criptografado e aparecerá no campo indicado (na caixa à direita).
+- Clicando no botão "Descriptografar" o texto inserido será descriptografado e aparecerá no campo indicado (na caixa à direita).
+- Clicando no botão "Copiar" o texto na caixa à direita será copiado para área de transferência.
 
 Autores do projeto: Desenvolvido por Julio Cesar.
