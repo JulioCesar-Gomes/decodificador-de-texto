@@ -31,6 +31,11 @@ botaoCopiador.addEventListener('click', () => {
         });
 });
 
+function limparTexto() {
+    inputText = document.getElementById("inputText").value = '';
+    outputText = document.getElementById("outputText").value = '';
+}
+
 //Remove automaticamentes elementos indesejados do inputText especificados na funcao retirarAcentuacao()
 document.getElementById("inputText").addEventListener("input", function () {
     this.value = retirarAcentuacao(this.value)
