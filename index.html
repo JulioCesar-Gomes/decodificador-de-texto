@@ -11,25 +11,24 @@
 <body>
     <header>
         <h1 class="apresentacao">DECODIFICADOR DE TEXTO</h1>
-        <img class="logoRobo" src="./style/logo-robo.jpg" alt="logo-robo">
+        <img class="logoRobo"src="./style/logo-robo.jpg" alt="logo-robo">
     </header>
     <main>
         <section>
-            <textarea class="entradaDeTexto" id="inputText" cols="41" rows="4"
+            <textarea class="entradaDeTexto" id="inputText" cols="45" rows="6"
                 placeholder="Digite aqui o seu texto..."></textarea>
-            <p class="observacao">Letras maiúsculas e caracteres especiais não serão aceitos.</p>
+            <div class="observacao">Letras maiúsculas e caracteres especiais não serão aceitos.</div>
 
             <div class="botao">
                 <button onclick="criptografar()" class="botaoCript">Criptografar</button>
                 <button onclick="descriptografar()" class="botaoDescript">Descriptografar</button>
             </div>
         </section>
-
         <section>
-            <textarea class="saidaDeTexto" id="outputText" cols="20" rows="10" placeholder="Resultado..."
+            <textarea class="saidaDeTexto" id="outputText" cols="45" rows="6" placeholder="Resultado..."
                 readonly></textarea>
             <div class="botaoCopia">
-               <button onclick="copiarTexto()" id="botaoCopiador" class="botaoCopy">Copiar</button>
+                <button onclick="copiarTexto()" id="botaoCopiador" class="botaoCopy">Copiar</button>
                 <button onclick="limparTexto()" class="botaoCleaner">Limpar</button>
             </div>
         </section>
@@ -37,7 +36,7 @@
     <script src="script.js"></script>
 </body>
 <footer>
-    <p class="rodape">Made by Julio César - 2024</p>
+    <p class="rodape"> Julio César - 2024</p>
 </footer>
 
 </html>
