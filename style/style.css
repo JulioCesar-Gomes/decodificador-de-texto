@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 :root {
-    --cor-background-1:black;
+    --cor-background-1:rgb(0, 0, 0);
     --cor-background-cript: white;
-    --cor-background-cript2:rgb(5, 169, 5);
+    --cor-background-cript2:rgb(32, 209, 8);
     --cor-background-descript2: #d10f0f;
     --cor-border-box:rgb(195, 244, 71);
     --cor-text-saidabox:var(--cor-background-cript2);
@@ -19,16 +19,17 @@
     line-height: 150%;
 }
 .logoRobo {
-    display: flex;
-    margin-left: 8px;
-    padding-top: 8px;
+
+    margin-left: 5px;
+    padding-top: 5px;
     width: 10%;
+
 }
 
 main {
     display: flex;
-    margin-bottom: 50px;
-    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 
 }
 
@@ -39,39 +40,41 @@ main {
     align-items: center;
     padding-top: 10px;
     color: white;
+    gap: 5px;
 }
 
 
 .entradaDeTexto {
+    
+    justify-content:left;
     background: var(--cor-background-cript);
     border-radius: 3%;
     color: var(--cor-secundaria);
-    margin-top: 90px;
+    margin-top: 70px;
     font-family: var(--font-primaria);
     text-transform: lowercase;
 
 }
 
 .saidaDeTexto {
-    background: var(--cor-background-cript);
-    background-image: url(/style/robô-pensativo.jpg);
+
+    justify-content:left;
+    background:url(./darth.gif);
     background-repeat: no-repeat;
-    border: none;
-    border-radius:24px;
-    color:var(--cor-text-saidabox);
-    margin-top: 20px;
-    margin-left: 50px;
-    padding-left: 10px;
+    border-radius: 3%;
+    color: var(--cor-secundaria);
+    margin-top: 75px;
     font-family: var(--font-primaria);
     text-transform: lowercase;
+    color:yellow;
 }
-
 .botaoCopia {
     display: flex;
     justify-content: center;
     border-radius: 10%;
     margin-top:1%;
-
+    font-family:var(--font-primaria);
+    gap: 1px;
 }
 .botaoCopy {
     background: var(--cor-background-cript);
@@ -81,6 +84,17 @@ main {
     flex-direction: line;
     border-radius: 20%
 
+
+}
+
+.botaoCleaner {
+    background: var(--cor-background-cript);
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-direction: line;
+    border-radius: 20%;
+    font-family:var(--font-primaria);
 }
 
 .observacao {
@@ -140,4 +154,10 @@ main {
 .botaoCopy:hover {
     background: black;
     color: white;
+    font-family: var(--font-primaria);
+}
+.botaoCleaner:hover {
+    background: black;
+    color: white;
+    font-family: var(--font-primaria);
 }
