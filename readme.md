@@ -14,7 +14,7 @@ Funcionalidades:
 Tecnologias:
 - JavaScript: Lógica de Programação.
 - HTML: Estrutura e marcação.
-- Estilização da Interface.  
+- CSS: Estilização da Interface.  
 
 Como os usuários podem utilizá-lo:
 - O usuário deverá inserir o texto no campo indicado (na caixa à esquerda).
