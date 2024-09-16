@@ -21,5 +21,6 @@ Como os usuários podem utilizá-lo:
 - Clicando no botão "Criptografar" o texto inserido será criptografado e aparecerá no campo indicado (na caixa à direita).
 - Clicando no botão "Descriptografar" o texto inserido será descriptografado e aparecerá no campo indicado (na caixa à direita).
 - Clicando no botão "Copiar" o texto na caixa à direita será copiado para área de transferência.
+- Clicando no botão limpar tantos os textos na entrada ou na saída serão apagados.
 
 Autores do projeto: Desenvolvido por Julio Cesar.
